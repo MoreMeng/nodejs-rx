@@ -1,0 +1,16 @@
+@hostname = 127.0.0.1
+@port = 6707
+@host = {{hostname}}:{{port}}
+
+GET http://{{host}}/ HTTP/1.1
+
+###
+# * MedLast
+# * 2023-01-23 10:37:11
+# id = HN or CID
+# vn = visit number
+@id = 123456789
+@vn = 6700000000000
+GET http://{{host}}/medlast/{{id}}
+###
+GET http://{{host}}/medlast/{{id}}{{vn}}

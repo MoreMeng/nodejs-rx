@@ -1,0 +1,22 @@
+{
+  "name": "@service/nodejs-rx",
+  "version": "1.0.4",
+  "description": "NodeJS API for HOSxP Exchange - Rx",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon --watch src ./src/server.js"
+  },
+  "author": "MoreMeng",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
