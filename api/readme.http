@@ -10,7 +10,7 @@ GET http://{{host}}/ HTTP/1.1
 # id = HN or CID
 # vn = visit number
 @id = 123456789
-@vn = 6700000000000
+@vn = 670709000608
 GET http://{{host}}/medlast/{{id}}
 ###
-GET http://{{host}}/medlast/{{id}}{{vn}}
+GET http://{{host}}/medlast/{{id}}/{{vn}}
