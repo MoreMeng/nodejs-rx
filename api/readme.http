@@ -13,4 +13,7 @@ GET http://{{host}}/ HTTP/1.1
 @vn = 670709000608
 GET http://{{host}}/medlast/{{id}}
 ###
+
 GET http://{{host}}/medlast/{{id}}/{{vn}}
+###
+GET http://{{host}}/opd/2567-01-01/2567-03-31
