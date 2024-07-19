@@ -3,6 +3,9 @@
 > Re-Start Project: 2024-07-18 21:09:28
 > Clone repository from nodejs-hosxp
 
+## v.1.0.1
+- change package version
+
 ## v.1.0.0
 - Open project
 - Medicine API for lazymed

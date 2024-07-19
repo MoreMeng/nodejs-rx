@@ -1,6 +1,6 @@
 {
   "name": "@service/nodejs-rx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS API for HOSxP Exchange - Rx",
   "main": "src/server.js",
   "scripts": {
